@@ -1,9 +1,8 @@
 <schedule>
-  <trains>
-    <train>
-      <DepartureTime>20.02.2020 18:00:00</DepartureTime>
-      <ArrivalTime>21.02.2020 00:45:00</ArrivalTime>
-      <TravelDuration>06:45:00</TravelDuration>
+  <trainRaces>
+    <trainRace>
+      <DepartureTime>2020-02-20T18:00:00</DepartureTime>
+      <ArrivalTime>2020-02-20T00:45:00</ArrivalTime>
       <RaceNumber>770702</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Москва</ArrivalCity>
@@ -11,11 +10,10 @@
       <ArrivalTerminal>2</ArrivalTerminal>
       <Price>35.50</Price>
       <TrainType>Express</TrainType>
-    </train>
-    <train>
-      <DepartureTime>12.02.2020 00:30:00</DepartureTime>
-      <ArrivalTime>12.02.2020 13:15:00</ArrivalTime>
-      <TravelDuration>12:45:00</TravelDuration>
+    </trainRace>
+    <trainRace>
+      <DepartureTime>2020-02-20T00:30:00</DepartureTime>
+      <ArrivalTime>2020-02-20T13:15:00</ArrivalTime>
       <RaceNumber>202326</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Киев</ArrivalCity>
@@ -23,11 +21,10 @@
       <ArrivalTerminal>15</ArrivalTerminal>
       <Price>55.50</Price>
       <TrainType>Express</TrainType>
-    </train>
-    <train>
-      <DepartureTime>30.02.2020 15:45:00</DepartureTime>
-      <ArrivalTime>30.02.2020 19:00:00</ArrivalTime>
-      <TravelDuration>03:15:00</TravelDuration>
+    </trainRace>
+    <trainRace>
+      <DepartureTime>2020-02-20T15:45:00</DepartureTime>
+      <ArrivalTime>2020-02-20T19:00:00</ArrivalTime>
       <RaceNumber>383365</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Полоцк</ArrivalCity>
@@ -35,85 +32,73 @@
       <ArrivalTerminal>4</ArrivalTerminal>
       <Price>10.50</Price>
       <TrainType>Passenger</TrainType>
-    </train>
-  </trains>
-  <buses>
-    <bus>
-      <DepartureTime>20.02.2020 18:00:00</DepartureTime>
-      <ArrivalTime>21.02.2020 01:30:00</ArrivalTime>
-      <TravelDuration>07:30:00</TravelDuration>
+    </trainRace>
+  </trainRaces>
+  <busRaces>
+    <busRace>
+      <DepartureTime>2020-02-20T18:00:00</DepartureTime>
+      <ArrivalTime>2020-02-20T01:30:00</ArrivalTime>
       <RaceNumber>2335</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Москва</ArrivalCity>
       <DepartureTerminal>10</DepartureTerminal>
       <ArrivalTerminal>2</ArrivalTerminal>
       <Price>35.50</Price>
-    </bus>
-    <bus>
-      <DepartureTime>12.02.2020 10:00:00</DepartureTime>
-      <ArrivalTime>12.02.2020 13:30:00</ArrivalTime>
-      <TravelDuration>03:30:00</TravelDuration>
+    </busRace>
+    <busRace>
+      <DepartureTime>2020-02-20T10:00:00</DepartureTime>
+      <ArrivalTime>2020-02-20T13:30:00</ArrivalTime>
       <RaceNumber>3025</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Полоцк</ArrivalCity>
       <DepartureTerminal>10</DepartureTerminal>
       <ArrivalTerminal>15</ArrivalTerminal>
       <Price>10.00</Price>
-    </bus>
-    <bus>
-      <DepartureTime>30.02.2020 15:00:00</DepartureTime>
-      <ArrivalTime>31.02.2020 03:30:00</ArrivalTime>
-      <TravelDuration>12:30:00</TravelDuration>
+    </busRace>
+    <busRace>
+      <DepartureTime>2020-02-20T15:00:00</DepartureTime>
+      <ArrivalTime>2020-02-20T03:30:00</ArrivalTime>
       <RaceNumber>3348</RaceNumber>
       <DepartureCity>Минск</DepartureCity>
       <ArrivalCity>Вильнюс</ArrivalCity>
       <DepartureTerminal>5</DepartureTerminal>
       <ArrivalTerminal>8</ArrivalTerminal>
       <Price>50.30</Price>
-      <RaceNumber>3348</RaceNumber>
-      <departureDate>30.02.2020</departureDate>
-      <departureTime>15.00</departureTime>
-      <destination>Вильнюс</destination>
-      <departurePlatform>5</departurePlatform>
-      <destinationPlatform>8</destinationPlatform>
-      <price>50.30</price>
-      <travelTime>12ч 30мин</travelTime>
-    </bus>
-  </buses>
-  <aircrafts>
-    <aircraft>
-      <flightNumber>1578</flightNumber>
-      <departureDate>29.01.2020</departureDate>
-      <departureTime>18.15</departureTime>
-      <destination>Москва</destination>
-      <departureAirport>Нац. аэропорт Минск</departureAirport>
-      <destinationAirport>Шерементьево</destinationAirport>
-      <price>98,5</price>
-      <destinationDate>29.01.2020</destinationDate>
-      <destinationTime>19.45</destinationTime>
-    </aircraft>
-    <aircraft>
-      <flightNumber>1978</flightNumber>
-      <departureDate>08.02.2020</departureDate>
-      <departureTime>22.15</departureTime>
-      <destination>Вена</destination>
-      <departureAirport>Нац. аэропорт Минск</departureAirport>
-      <destinationAirport>Швехат</destinationAirport>
-      <price>120</price>
-      <destinationDate>09.02.2020</destinationDate>
-      <destinationTime>00.45</destinationTime>
-    </aircraft>
-    <aircraft>
-      <flightNumber>1230</flightNumber>
-      <departureDate>12.02.2020</departureDate>
-      <departureTime>14.45</departureTime>
-      <destination>Тбилиси</destination>
-      <departureAirport>Нац. аэропорт Минск</departureAirport>
-      <destinationAirport>Лочини</destinationAirport>
-      <price>160</price>
-      <destinationDate>12.02.2020</destinationDate>
-      <destinationTime>17.45</destinationTime>
-    </aircraft>
-  </aircrafts>
+    </busRace>
+  </busRaces>
+  <aircraftRaces>
+    <aircraftRace>
+      <DepartureTime>2020-02-20T00:30:00</DepartureTime>
+      <ArrivalTime>2020-02-20T13:15:00</ArrivalTime>
+      <RaceNumber>202326</RaceNumber>
+      <DepartureCity>Минск</DepartureCity>
+      <ArrivalCity>Киев</ArrivalCity>
+      <DepartureTerminal>10</DepartureTerminal>
+      <ArrivalTerminal>15</ArrivalTerminal>
+      <Price>55.50</Price>
+      <AllowedWeight>20</AllowedWeight>
+    </aircraftRace>
+    <aircraftRace>
+      <DepartureTime>2020-02-20T00:30:00</DepartureTime>
+      <ArrivalTime>2020-02-20T13:15:00</ArrivalTime>
+      <RaceNumber>202326</RaceNumber>
+      <DepartureCity>Минск</DepartureCity>
+      <ArrivalCity>Киев</ArrivalCity>
+      <DepartureTerminal>10</DepartureTerminal>
+      <ArrivalTerminal>15</ArrivalTerminal>
+      <Price>55.50</Price>
+      <AllowedWeight>22</AllowedWeight>
+    </aircraftRace>
+    <aircraftRace>
+      <DepartureTime>2020-02-20T00:30:00</DepartureTime>
+      <ArrivalTime>2020-02-20T13:15:00</ArrivalTime>
+      <RaceNumber>202326</RaceNumber>
+      <DepartureCity>Минск</DepartureCity>
+      <ArrivalCity>Киев</ArrivalCity>
+      <DepartureTerminal>10</DepartureTerminal>
+      <ArrivalTerminal>15</ArrivalTerminal>
+      <Price>55.50</Price>
+      <AllowedWeight>23</AllowedWeight>
+    </aircraftRace>
+  </aircraftRaces>
 </schedule>
-
