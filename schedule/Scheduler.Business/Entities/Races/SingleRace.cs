@@ -9,7 +9,7 @@ namespace Scheduler.Business.Entities.Races
     
     public abstract class SingleRace: Race
     {
-        string RaceNumber { get; set; }
+        public string RaceNumber { get; set; }
 
         public override void Add(Race race)
         {
