@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Scheduler.Business.Entities.Races
 {
-    [Serializable()]
     public class TrainRace : SingleRace
     {
         public TrainType trainType { get; set; }

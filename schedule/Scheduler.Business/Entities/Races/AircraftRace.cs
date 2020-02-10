@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Scheduler.Business.Entities.Races
 {
-    [Serializable()]
     public class AircraftRace : SingleRace
     {       
         public double AllowedWeight { get; set; }
