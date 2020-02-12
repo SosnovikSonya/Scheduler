@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,15 +45,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Entities\DataLoad\CSVData.cs" />
-    <Compile Include="Entities\DataLoad\CSVLoadSettings.cs" />
+    <Compile Include="Entities\DataLoad\Json\JsonData.cs" />
+    <Compile Include="Entities\DataLoad\Json\JsonLoadSettings.cs" />
     <Compile Include="Entities\DataLoad\ILoadable.cs" />
-    <Compile Include="Entities\DataLoad\Schedule.cs" />
-    <Compile Include="Entities\DataLoad\XMLDataLoader.cs" />
-    <Compile Include="Entities\DataLoad\CSVDataLoader.cs" />
+    <Compile Include="Entities\DataLoad\Json\JsonSchedule.cs" />
+    <Compile Include="Entities\DataLoad\Xml\XmlSchedule.cs" />
+    <Compile Include="Entities\DataLoad\Xml\XmlDataLoader.cs" />
+    <Compile Include="Entities\DataLoad\Json\JsonDataLoader.cs" />
     <Compile Include="Entities\DataLoad\DataLoader.cs" />
     <Compile Include="Entities\DataLoad\IData.cs" />
-    <Compile Include="Entities\DataLoad\XMLLoadSettings.cs" />
+    <Compile Include="Entities\DataLoad\Xml\XmlLoadSettings.cs" />
     <Compile Include="Entities\Races\Route.cs" />
     <Compile Include="Entities\Races\SingleRace.cs" />
     <Compile Include="Entities\Races\TrainRace.cs" />
@@ -58,12 +62,15 @@
     <Compile Include="Entities\Races\AircraftRace.cs" />
     <Compile Include="Entities\Races\Race.cs" />
     <Compile Include="Entities\Races\TrainType.cs" />
-    <Compile Include="Entities\DataLoad\XMLData.cs" />
+    <Compile Include="Entities\DataLoad\Xml\XmlData.cs" />
     <Compile Include="Factories\AircraftScheduleFactory.cs" />
     <Compile Include="Factories\BusScheduleFactory.cs" />
     <Compile Include="Factories\ScheduleFactory.cs" />
     <Compile Include="Factories\TrainScheduleFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
