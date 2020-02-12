@@ -1,0 +1,116 @@
+{
+  "TrainRaces": [
+    {
+      "DepartureTime": "2020-02-20T18:00:00",
+      "ArrivalTime": "2020-02-20T00:45:00",
+      "RaceNumber": "770702",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Москва",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "2",
+      "Price": "35.50",
+      "TrainType": "Express"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T00:30:00",
+      "ArrivalTime": "2020-02-20T13:15:00",
+      "RaceNumber": "202326",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Киев",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "15",
+      "Price": "55.50",
+      "TrainType": "Express"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T15:45:00",
+      "ArrivalTime": "2020-02-20T19:00:00",
+      "RaceNumber": "383365",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Полоцк",
+      "DepartureTerminal": "12",
+      "ArrivalTerminal": "4",
+      "Price": "10.50",
+      "TrainType": "Passenger"
+
+    }
+
+  ],
+  "BusRaces": [
+    {
+      "DepartureTime": "2020-02-20T18:00:00",
+      "ArrivalTime": "2020-02-20T01:30:00",
+      "RaceNumber": "2335",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Москва",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "2",
+      "Price": "35.50"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T10:00:00",
+      "ArrivalTime": "2020-02-20T13:30:00",
+      "RaceNumber": "3025",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Полоцк",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "15",
+      "Price": "10.00"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T15:00:00",
+      "ArrivalTime": "2020-02-20T03:30:00",
+      "RaceNumber": "3348",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Вильнюс",
+      "DepartureTerminal": "5",
+      "ArrivalTerminal": "8",
+      "Price": "50.30"
+
+    }
+
+  ],
+  "AircraftRaces": [
+    {
+      "DepartureTime": "2020-02-20T00:30:00",
+      "ArrivalTime": "2020-02-20T13:15:00",
+      "RaceNumber": "202326",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Киев",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "15",
+      "Price": "55.50",
+      "AllowedWeight": "20"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T00:30:00",
+      "ArrivalTime": "2020-02-20T13:15:00",
+      "RaceNumber": "202326",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Киев",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "15",
+      "Price": "55.50",
+      "AllowedWeight": "22"
+
+    },
+    {
+      "DepartureTime": "2020-02-20T00:30:00",
+      "ArrivalTime": "2020-02-20T13:15:00",
+      "RaceNumber": "202326",
+      "DepartureCity": "Минск",
+      "ArrivalCity": "Киев",
+      "DepartureTerminal": "10",
+      "ArrivalTerminal": "15",
+      "Price": "55.50",
+      "AllowedWeight": "23"
+
+    }
+
+  ]
+}
