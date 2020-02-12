@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Scheduler.Business.Entities.DataLoad
+namespace Scheduler.Business.Entities.DataLoad.Xml
 {
-    public class XMLLoadSettings : ILoadable<XmlDocument>
+    public class XmlLoadSettings : ILoadable<XmlDocument>
     {
         public XmlDocument Content { get; set; }
-        public XMLLoadSettings(XmlDocument content)
+        public XmlLoadSettings(XmlDocument content)
         {
             Content = content;
         }
